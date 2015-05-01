@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951741FA1AD943A0002B9BB4 /* BluetoothCentralManageer.m in Sources */ = {isa = PBXBuildFile; fileRef = 951741F91AD943A0002B9BB4 /* BluetoothCentralManageer.m */; };
+		951742041ADB1130002B9BB4 /* DeviceDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951742031ADB1130002B9BB4 /* DeviceDataViewController.m */; };
+		954DA0B11AC7071A00BFDA49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0B01AC7071A00BFDA49 /* main.m */; };
+		954DA0B41AC7071A00BFDA49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0B31AC7071A00BFDA49 /* AppDelegate.m */; };
+		954DA0B71AC7071A00BFDA49 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0B61AC7071A00BFDA49 /* MainViewController.m */; };
+		954DA0BA1AC7071A00BFDA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954DA0B81AC7071A00BFDA49 /* Main.storyboard */; };
+		954DA0BC1AC7071B00BFDA49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954DA0BB1AC7071B00BFDA49 /* Images.xcassets */; };
+		954DA0BF1AC7071B00BFDA49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954DA0BD1AC7071B00BFDA49 /* LaunchScreen.xib */; };
+		954DA0CB1AC7071B00BFDA49 /* SKMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0CA1AC7071B00BFDA49 /* SKMTests.m */; };
+		954DA0D61AC70CD300BFDA49 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0D51AC70CD300BFDA49 /* LocationManager.m */; };
+		954DA0D91AC70D2100BFDA49 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0D81AC70D2100BFDA49 /* WeatherData.m */; };
+		954DA0DC1AC70D3400BFDA49 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0DB1AC70D3400BFDA49 /* NetworkManager.m */; };
+		954DA0DF1AC74ECE00BFDA49 /* BluetoothPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA0DE1AC74ECE00BFDA49 /* BluetoothPeripheralManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		954DA0C51AC7071B00BFDA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954DA0A31AC7071A00BFDA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954DA0AA1AC7071A00BFDA49;
+			remoteInfo = SKM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		951741F81AD943A0002B9BB4 /* BluetoothCentralManageer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCentralManageer.h; sourceTree = "<group>"; };
+		951741F91AD943A0002B9BB4 /* BluetoothCentralManageer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCentralManageer.m; sourceTree = "<group>"; };
+		951742021ADB1130002B9BB4 /* DeviceDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDataViewController.h; sourceTree = "<group>"; };
+		951742031ADB1130002B9BB4 /* DeviceDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDataViewController.m; sourceTree = "<group>"; };
+		954DA0AB1AC7071A00BFDA49 /* SKM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954DA0AF1AC7071A00BFDA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954DA0B01AC7071A00BFDA49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		954DA0B21AC7071A00BFDA49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		954DA0B31AC7071A00BFDA49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		954DA0B51AC7071A00BFDA49 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		954DA0B61AC7071A00BFDA49 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		954DA0B91AC7071A00BFDA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954DA0BB1AC7071B00BFDA49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		954DA0BE1AC7071B00BFDA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		954DA0C41AC7071B00BFDA49 /* SKMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		954DA0C91AC7071B00BFDA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954DA0CA1AC7071B00BFDA49 /* SKMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMTests.m; sourceTree = "<group>"; };
+		954DA0D41AC70CD300BFDA49 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		954DA0D51AC70CD300BFDA49 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		954DA0D71AC70D2100BFDA49 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		954DA0D81AC70D2100BFDA49 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		954DA0DA1AC70D3400BFDA49 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		954DA0DB1AC70D3400BFDA49 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		954DA0DD1AC74ECE00BFDA49 /* BluetoothPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothPeripheralManager.h; sourceTree = "<group>"; };
+		954DA0DE1AC74ECE00BFDA49 /* BluetoothPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothPeripheralManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954DA0A81AC7071A00BFDA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954DA0C11AC7071B00BFDA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954DA0A21AC7071A00BFDA49 = {
+			isa = PBXGroup;
+			children = (
+				954DA0AD1AC7071A00BFDA49 /* SKM */,
+				954DA0C71AC7071B00BFDA49 /* SKMTests */,
+				954DA0AC1AC7071A00BFDA49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		954DA0AC1AC7071A00BFDA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954DA0AB1AC7071A00BFDA49 /* SKM.app */,
+				954DA0C41AC7071B00BFDA49 /* SKMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954DA0AD1AC7071A00BFDA49 /* SKM */ = {
+			isa = PBXGroup;
+			children = (
+				954DA0B21AC7071A00BFDA49 /* AppDelegate.h */,
+				954DA0B31AC7071A00BFDA49 /* AppDelegate.m */,
+				954DA0B51AC7071A00BFDA49 /* MainViewController.h */,
+				954DA0B61AC7071A00BFDA49 /* MainViewController.m */,
+				951742021ADB1130002B9BB4 /* DeviceDataViewController.h */,
+				951742031ADB1130002B9BB4 /* DeviceDataViewController.m */,
+				954DA0DD1AC74ECE00BFDA49 /* BluetoothPeripheralManager.h */,
+				954DA0DE1AC74ECE00BFDA49 /* BluetoothPeripheralManager.m */,
+				951741F81AD943A0002B9BB4 /* BluetoothCentralManageer.h */,
+				951741F91AD943A0002B9BB4 /* BluetoothCentralManageer.m */,
+				954DA0D41AC70CD300BFDA49 /* LocationManager.h */,
+				954DA0D51AC70CD300BFDA49 /* LocationManager.m */,
+				954DA0D71AC70D2100BFDA49 /* WeatherData.h */,
+				954DA0D81AC70D2100BFDA49 /* WeatherData.m */,
+				954DA0DA1AC70D3400BFDA49 /* NetworkManager.h */,
+				954DA0DB1AC70D3400BFDA49 /* NetworkManager.m */,
+				954DA0B81AC7071A00BFDA49 /* Main.storyboard */,
+				954DA0BB1AC7071B00BFDA49 /* Images.xcassets */,
+				954DA0BD1AC7071B00BFDA49 /* LaunchScreen.xib */,
+				954DA0AE1AC7071A00BFDA49 /* Supporting Files */,
+			);
+			path = SKM;
+			sourceTree = "<group>";
+		};
+		954DA0AE1AC7071A00BFDA49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954DA0AF1AC7071A00BFDA49 /* Info.plist */,
+				954DA0B01AC7071A00BFDA49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		954DA0C71AC7071B00BFDA49 /* SKMTests */ = {
+			isa = PBXGroup;
+			children = (
+				954DA0CA1AC7071B00BFDA49 /* SKMTests.m */,
+				954DA0C81AC7071B00BFDA49 /* Supporting Files */,
+			);
+			path = SKMTests;
+			sourceTree = "<group>";
+		};
+		954DA0C81AC7071B00BFDA49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954DA0C91AC7071B00BFDA49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954DA0AA1AC7071A00BFDA49 /* SKM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954DA0CE1AC7071B00BFDA49 /* Build configuration list for PBXNativeTarget "SKM" */;
+			buildPhases = (
+				954DA0A71AC7071A00BFDA49 /* Sources */,
+				954DA0A81AC7071A00BFDA49 /* Frameworks */,
+				954DA0A91AC7071A00BFDA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKM;
+			productName = SKM;
+			productReference = 954DA0AB1AC7071A00BFDA49 /* SKM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		954DA0C31AC7071B00BFDA49 /* SKMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954DA0D11AC7071B00BFDA49 /* Build configuration list for PBXNativeTarget "SKMTests" */;
+			buildPhases = (
+				954DA0C01AC7071B00BFDA49 /* Sources */,
+				954DA0C11AC7071B00BFDA49 /* Frameworks */,
+				954DA0C21AC7071B00BFDA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954DA0C61AC7071B00BFDA49 /* PBXTargetDependency */,
+			);
+			name = SKMTests;
+			productName = SKMTests;
+			productReference = 954DA0C41AC7071B00BFDA49 /* SKMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954DA0A31AC7071A00BFDA49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = madzia;
+				TargetAttributes = {
+					954DA0AA1AC7071A00BFDA49 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 6M3573A3P7;
+					};
+					954DA0C31AC7071B00BFDA49 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 954DA0AA1AC7071A00BFDA49;
+					};
+				};
+			};
+			buildConfigurationList = 954DA0A61AC7071A00BFDA49 /* Build configuration list for PBXProject "SKM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954DA0A21AC7071A00BFDA49;
+			productRefGroup = 954DA0AC1AC7071A00BFDA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954DA0AA1AC7071A00BFDA49 /* SKM */,
+				954DA0C31AC7071B00BFDA49 /* SKMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954DA0A91AC7071A00BFDA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954DA0BA1AC7071A00BFDA49 /* Main.storyboard in Resources */,
+				954DA0BF1AC7071B00BFDA49 /* LaunchScreen.xib in Resources */,
+				954DA0BC1AC7071B00BFDA49 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954DA0C21AC7071B00BFDA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954DA0A71AC7071A00BFDA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951742041ADB1130002B9BB4 /* DeviceDataViewController.m in Sources */,
+				954DA0DF1AC74ECE00BFDA49 /* BluetoothPeripheralManager.m in Sources */,
+				954DA0D91AC70D2100BFDA49 /* WeatherData.m in Sources */,
+				954DA0D61AC70CD300BFDA49 /* LocationManager.m in Sources */,
+				954DA0B71AC7071A00BFDA49 /* MainViewController.m in Sources */,
+				951741FA1AD943A0002B9BB4 /* BluetoothCentralManageer.m in Sources */,
+				954DA0B41AC7071A00BFDA49 /* AppDelegate.m in Sources */,
+				954DA0DC1AC70D3400BFDA49 /* NetworkManager.m in Sources */,
+				954DA0B11AC7071A00BFDA49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954DA0C01AC7071B00BFDA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954DA0CB1AC7071B00BFDA49 /* SKMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		954DA0C61AC7071B00BFDA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954DA0AA1AC7071A00BFDA49 /* SKM */;
+			targetProxy = 954DA0C51AC7071B00BFDA49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		954DA0B81AC7071A00BFDA49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954DA0B91AC7071A00BFDA49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954DA0BD1AC7071B00BFDA49 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954DA0BE1AC7071B00BFDA49 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954DA0CC1AC7071B00BFDA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		954DA0CD1AC7071B00BFDA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954DA0CF1AC7071B00BFDA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SKM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		954DA0D01AC7071B00BFDA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SKM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		954DA0D21AC7071B00BFDA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKM.app/SKM";
+			};
+			name = Debug;
+		};
+		954DA0D31AC7071B00BFDA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKM.app/SKM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954DA0A61AC7071A00BFDA49 /* Build configuration list for PBXProject "SKM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954DA0CC1AC7071B00BFDA49 /* Debug */,
+				954DA0CD1AC7071B00BFDA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954DA0CE1AC7071B00BFDA49 /* Build configuration list for PBXNativeTarget "SKM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954DA0CF1AC7071B00BFDA49 /* Debug */,
+				954DA0D01AC7071B00BFDA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954DA0D11AC7071B00BFDA49 /* Build configuration list for PBXNativeTarget "SKMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954DA0D21AC7071B00BFDA49 /* Debug */,
+				954DA0D31AC7071B00BFDA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954DA0A31AC7071A00BFDA49 /* Project object */;
+}
